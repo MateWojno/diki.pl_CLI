@@ -30,7 +30,7 @@
 python -m pip install -r requirements.txt
 ```
 
-2. If you don't have pip somehow:
+2a. If you don't have pip somehow:
 ```bash
 python -m ensurepip --upgrade
 ```
