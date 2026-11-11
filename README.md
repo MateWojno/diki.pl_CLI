@@ -18,5 +18,8 @@
 2. Install the required dependencies:
 ```bash
  pip install -r requirements.txt
+```
+3. Run
+```bash
  python diki.py
 ```
