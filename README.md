@@ -20,6 +20,8 @@
 -   `Python 3.x`
 -   `requests`
 -   `beautifulsoup4`
+-   `soupsieve==4.1`
+-   `cx_Freeze==8.7.4`
 
 ## Installation
 1. Clone or download the repository.
