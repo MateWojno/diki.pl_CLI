@@ -27,7 +27,7 @@
 1. Clone or download the repository.
 2. Install the required dependencies:
 ```bash
- pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 3. Run
