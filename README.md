@@ -14,7 +14,7 @@
 ## Features
 - Direct Web Scraping: *Uses `requests` and `BeautifulSoup` to parse dictionary entries seamlessly.*
 - Terminal Color Support: *Formats CLI output with ANSI color codes.*
-- Error Handling:\*\* Gracefully handles non-200 HTTP statuses and network timeouts.
+- Error Handling: Gracefully handles non-200 HTTP statuses and network timeouts.
 
 ## Requirements
 -   `Python 3.x`
@@ -28,6 +28,11 @@
 2. Install the required dependencies:
 ```bash
 python -m pip install -r requirements.txt
+```
+
+2. If you don't have pip somehow:
+```bash
+python -m ensurepip --upgrade
 ```
 
 3. Run
