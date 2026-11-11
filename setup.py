@@ -1,6 +1,8 @@
-from distutils.core import setup 
-import py2exe
+from cx_Freeze import setup, Executable
 
 setup(
-    console=['diki.py']
+    name =   'diki',
+    version = "1.0.1",
+    description = "A lightweight command-line interface tool written in Python that fetches English word translations directly from [diki.pl](https://www.diki.pl/).",
+    executables = [Executable("diki.py")]
 )

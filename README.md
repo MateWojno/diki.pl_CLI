@@ -19,7 +19,15 @@
 ```bash
  pip install -r requirements.txt
 ```
+
 3. Run
 ```bash
- python diki.py
+python diki.py
 ```
+
+4. Compile to exe
+```bash
+python ./setup.py build
+```
+5. Add ./build directory to path in your OS
+6. Inside ./build/*/ is diki.exe, which should be used from `cli`
