@@ -2,12 +2,15 @@
 ` A lightweight command-line interface tool written in Python that fetches English word translations directly from [diki.pl](https://www.diki.pl/).`
 
 ## Screenshots
-`Invoke diki`
-![Invoke diki](./screenshots/1.png)
-`prompt your phrase`
-![InputPrompt](./screenshots/2.png)
-`get results`
-![GetResults](./screenshots/3.png)
+
+<table>
+  <tr>
+    <td align="center"><img src="./screenshots/1.png" width="250"/><br/>1. Invoke diki</td>
+    <td align="center"><img src="./screenshots/2.png" width="250"/><br/>2. Prompt your phrase</td>
+    <td align="center"><img src="./screenshots/3.png" width="250"/><br/>3. Get Results</td>
+  </tr>
+</table>
+
 ## Features
 - Direct Web Scraping: *Uses `requests` and `BeautifulSoup` to parse dictionary entries seamlessly.*
 - Terminal Color Support: *Formats CLI output with ANSI color codes.*
@@ -35,14 +38,30 @@ python diki.py
 python ./setup.py build
 ```
 5. Add ./build directory to path in your OS
-![EditEnvPath1](./screenshots/4.png)
-![EditEnvPath2](./screenshots/5.png)
-![EditEnvPath3](./screenshots/6.png)
+<table>
+  <tr>
+    <td align="center"><img src="./screenshots/4.png" width="450"/><br/></td>
+    <td align="center"><img src="./screenshots/5.png" width="450"/><br/></td>
+  </tr>
+  <td align="center"><img src="./screenshots/6.png" width="750"/><br/></td>
+  <tr>
+    
+     
+</table>
+
 ```bash
 # click <new> and
 # paste the absolute path of your directory where */build/*/diki.exe is located
 ```
-![EditEnvPath3](./screenshots/7.png)
+<table>
+  <tr>
+    <td align="center"><img src="./screenshots/7.png" width="500"/><br/></td>
+  </tr>
+</table>
 
 6. `Diki` works now!
-![Invoke diki](./screenshots/1.png)
+<table>
+  <tr>
+    <td align="center"><img src="./screenshots/1.png" width="750"/><br/></td>
+  </tr>
+</table>
